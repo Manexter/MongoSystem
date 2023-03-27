@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js --exec @babel-node",
-    "build": "babel src -d proyecto && ncp src/views proyecto/views && ncp src/frontend proyecto/frontend"
+    "build": "babel src -d proyecto"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
     "@babel/node": "^7.20.7",
+    "@babel/plugin-transform-regenerator": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.20"
   }
