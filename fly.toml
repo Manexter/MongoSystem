@@ -1,0 +1,4 @@
+# fly.toml file generated for mongo-system on 2023-03-27T17:52:31-06:00
+
+app = "mongo-system"
+primary_region = "qro"
